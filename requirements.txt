@@ -1,0 +1,5 @@
+mlx
+jupyter
+numpy
+matplotlib
+pandas

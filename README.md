@@ -6,7 +6,7 @@ A Jupyter notebook-based project for MLX training experiments.
 
 1. Create a conda environment:
    ```bash
-   conda create -n mlxtraining python=3.9
+   conda create -n mlxtraining python=3.12
    conda activate mlxtraining
    ```
 

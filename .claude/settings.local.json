@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep:*)",
+      "Bash(python:*)",
+      "Bash(cp:*)",
+      "Bash(sqlite3:*)",
+      "Bash(tee:*)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(curl:*)",
+      "Bash(python3:*)",
+      "WebFetch(domain:ml-explore.github.io)",
+      "Read(//Users/George/miniconda3/envs/MLXTraining/lib/python3.12/site-packages/mlx_lm/**)",
+      "Bash(timeout 600 python3:*)",
+      "Bash(cat:*)",
+      "Bash(git add:*)"
+    ],
+    "deny": []
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "lora_config": {
+    "rank": 16,
+    "alpha": 32.0,
+    "target_modules": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj"
+    ],
+    "layer_coverage": 0.5
+  },
+  "training_config": {
+    "learning_rate": 5e-05,
+    "batch_size": 4,
+    "num_epochs": 3,
+    "warmup_steps": 50,
+    "eval_every": 50,
+    "save_every": 100
+  },
+  "final_metrics": {
+    "best_val_reward": -Infinity,
+    "final_train_reward": 0.175,
+    "total_steps": 42,
+    "modified_layers": 48
+  }
+}
